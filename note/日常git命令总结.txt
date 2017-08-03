@@ -33,3 +33,9 @@ vi .git/config（修改git配置文件）
 
 ssh-keygen -t rsa -C "jaquery@163.com" -b 4096  （生成git key）
 (添加key时要记得勾选写权限，否则没有写入权限提交不了代码)
+
+git remote add origin git@server-name:path/repo-name.git(要关联一个远程库，使用命令)
+
+nginx -t（关闭nginx）
+
+nginx -s reload(重启)
