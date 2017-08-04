@@ -36,6 +36,12 @@ ssh-keygen -t rsa -C "jaquery@163.com" -b 4096  （生成git key）
 
 git remote add origin git@server-name:path/repo-name.git(要关联一个远程库，使用命令)
 
-nginx -t（关闭nginx）
+git rebase origin/XXX(用于把一个分支的修改合并到当前分支)
+
+nginx -t（查看）
 
 nginx -s reload(重启)
+
+
+tail -f /DATA/log/php/php_* （查看日志）
+
